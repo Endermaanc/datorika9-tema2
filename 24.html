@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pixel Gun 4D</title>
+<style>
+/* Pamata izkārtojums — šīs rindas nemaini */
+body { font-family: Arial, sans-serif; max-width: 680px; margin: 24px auto; padding: 16px; line-height: 1.6; }
+button, input { font: inherit; padding: 10px; margin: 4px; cursor: pointer; }
+img, audio { max-width: 100%; }
+[hidden] { display: none !important; }
+
+/* MAINI ŠEIT: skaņas bloku izskats */
+.skana {
+  background-color: #f7737a;
+  border: 2px solid #ff0000;
+  padding: 16px;
+  margin: 16px 0;
+  box-sizing: border-box;
+  border-radius: 12px;
+}
+</style>
+</head>
+<body>
+<h1>Pixel Gun 4D</h1>
+<p>Noklausies spēles skaņas efektus ar atskaņošanas pogu.</p>
+<div class="skana">
+  <h2>Pretinieku nogalināšana</h2>
+  <p>Šo skaņu dzirdēsi, nogalināsi pretinieku.</p>
+  <audio controls src="klikskis.wav"></audio>
+</div>
+<!-- ŠEIT OTRAIS SKAŅAS BLOKS -->
+ <div class="skana">
+  <h2>Granātas uzsprāgšana</h2>
+  <p>Šo skaņu dzirdēsi kad uzsprāgst granāta.</p>
+  <audio controls src="granāta.wav"></audio>
+  
+</body>
+</html>
